@@ -1,0 +1,9 @@
+$font-stack: Ubuntu, mono;
+$background-color: #242222;
+$primary-color: #f7eae1;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $background-color;
+}
