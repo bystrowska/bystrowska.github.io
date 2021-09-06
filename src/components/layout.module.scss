@@ -1,25 +1,17 @@
-$font-stack: Source Code Pro, mono;
-$background-color: #242222;
-$primary-color: #f7eae1;
+@use '../static/variables';
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: $background-color;
+  font: 100% variables.$font-stack;
+  color: variables.$primary-color;
+  background-color: variables.$background-color;
   margin: 0;
   padding: 0;
-  display: grid;
-  min-height: 100vh;
 }
 
 main {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: $background-color;
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  min-width: 100wh;
   position: relative;
   display: grid;
   place-content: center;

@@ -1,6 +1,4 @@
-$font-stack: Source Code Pro, mono;
-$background-color: #242222;
-$primary-color: #f7eae1;
+@use '../static/variables';
 
 $typewriter-speed: 3s;
 $typewriter-characters: 15;
@@ -25,7 +23,7 @@ h1 {
 
   &::before {
     @extend %before-after;
-    background-color: $background-color;
+    background-color: variables.$background-color;
     animation: typewriter $typewriter-speed steps($typewriter-characters) $typewriter-delay forwards;
   }
   
@@ -55,7 +53,7 @@ h1 {
 
 @keyframes blink {
   to {
-    background-color: $primary-color;
+    background-color: variables.$primary-color;
   }
 }
 
