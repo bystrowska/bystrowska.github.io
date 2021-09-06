@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/source-code-pro": "^4.5.0",
     "gatsby": "^3.13.0",
     "gatsby-plugin-sass": "^4.13.0",
     "react": "^17.0.1",
