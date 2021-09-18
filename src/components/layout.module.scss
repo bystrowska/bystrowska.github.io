@@ -18,3 +18,10 @@ main {
   text-align: center;
   min-height: 100vh;
 }
+
+footer {
+  padding: 1rem;
+  display: flex;
+  place-content: center;
+  gap: 1rem;
+}
